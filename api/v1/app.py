@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""Flask web application API.
-"""
+'''Flask web application API.
+'''
 import os
 from flask import Flask, jsonify
 from flask_cors import CORS
-
 from models import storage
 from api.v1.views import app_views
 
